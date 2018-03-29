@@ -9,6 +9,7 @@ import os.path
 env.hosts = ['34.229.124.172', '34.234.82.4']
 env.user = "ubuntu"
 
+
 def do_deploy(archive_path):
     if (os.path.isfile(archive_path) is False):
         return False
